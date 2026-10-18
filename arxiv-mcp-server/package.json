@@ -1,0 +1,28 @@
+{
+  "name": "arxiv-mcp-server-actor",
+  "version": "1.0.0",
+  "description": "Apify Actor for ArXiv MCP Server providing Model Context Protocol interface for AI assistants to search and access arXiv papers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apify",
+    "actor",
+    "arxiv",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apify": "^3.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
